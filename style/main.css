@@ -46,7 +46,7 @@ header nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%),
         url('../img/vikns-netflix.jpg');
-    height: 400px;
+    height: 500px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -82,4 +82,18 @@ header nav a:hover {
 
 .button i {
     margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.main-movie .container {
+    width: 50%;
+}
+
+.box-movie {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
